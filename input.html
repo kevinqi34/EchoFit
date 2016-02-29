@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<title>Enter Your Stats</title>
+<!--meta info-->
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/A.style.css%2bbootstrap.css%2bfont-awesome.css%2cMcc.1GpEapXa7X.css.pagespeed.cf.uqd0GmCeS4.css" type="text/css">
+<link rel="stylesheet" href="/css/input.css" type="text/css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script src="/js/jquery.validate.min.js"></script>
+<script src="/js/input.js"></script>
+
+
+</head>
+
+
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid" id="fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./">
+          <img alt="LeanFitGo" src="../LEANFITLOGO.png">
+        </a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Log off</a></li>
+
+        </ul>
+      </div>
+
+</div>
+
+</nav>
+
+
+
+<div class="bod" id="page1">
+  <h2>Please Select Your Gender</h2>
+ <div class="col-md-5 choice" id="male"><img src="../images/male-symbol.png" /><h3>Male</h3></div>
+ <div class="col-md-2"></div>
+ <div class="col-md-5 choice" id="female"><img src="../images/female.png" /><h3>Female</h3></div>
+
+
+
+
+
+</div>
+
+
+
+<div class="bod" id="page2" style="display:none;">
+  <h2>Please Select Your Goal</h2>
+ <div class="col-md-5 choice" id="LW"><img src="../images/approval-sign-on-scales.png" /><h3>Lose Weight</h3></div>
+ <div class="col-md-2"></div>
+ <div class="col-md-5 choice" id="GM"><img src="../images/dumbbell-training.png" /><h3>Gain Muscle</h3></div>
+
+
+
+
+
+</div>
+
+
+<div class="bod" id="page3" style="display:none;">
+<h2>Please Enter Your Vitals</h2>
+
+<div id="info">
+
+
+
+<form id="user_vitals" action="/user_vitals.php" method="post">
+  <div class="input-group">
+              <span class="input-group-addon" id="sizing-addon3">Age (Years)</span>
+              <!-- Two Variables -->
+              <input id="isMale" name="isMale" type="hidden" class="form-control" value="0"/>
+              <input id="isGain" name="isGain" type="hidden" class="form-control" value="0"/>
+
+              <input id="age" name="age" type="text" class="form-control" placeholder="ex('18')" />
+
+  </div>
+
+  <div class="input-group">
+              <span class="input-group-addon" id="sizing-addon3">Height (Feet & Inches)</span>
+              <input id="height" name="height" type="text" class="form-control" placeholder="ex('5.9')" />
+
+  </div>
+
+
+  <div class="input-group">
+              <span class="input-group-addon" id="sizing-addon3">Weight (Pounds)</span>
+              <input id="weight" name="weight" type="text" class="form-control" placeholder="ex('180')"  />
+
+  </div>
+
+<div class="input-group">
+  <h3>Activity Amount</h3>
+  <select class="form-control" name="Exercise">
+      <option value="1.2">Low Intensity</option>
+      <option value="1.375">Light Intensity</option>
+      <option value="1.55">Moderate Intensity</option>
+      <option value="1.725">Active Intensity</option>
+      <option value="1.9">Extremely Active Intensity</option>
+    </select>
+
+
+
+</div>
+
+
+
+<div class="input-group">
+         <button type="submit" id="submit" value="Submit" class="btn btn-secondary btn-lg">Submit</button>
+
+
+</div>
+
+
+</form>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

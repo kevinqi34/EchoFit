@@ -1,0 +1,192 @@
+
+
+#fluid {
+  width: 80%;
+
+
+
+
+}
+
+
+nav.navbar {
+  background:transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid white;
+  margin: 0;
+
+
+
+}
+
+div.navbar-collapse ul.nav li a {
+
+color: white;
+font-size: 20px;
+
+
+
+}
+
+div.navbar-collapse ul.nav li a:hover {
+  font-size: 22px;
+  color: white;
+
+
+}
+
+div.bod {
+  border: 1px solid #242424;
+  height: calc(100vh - 52px);
+  width: 80%;
+
+  margin-left: 10%;
+
+
+
+}
+
+div.bod h2 {
+  width: 100%;
+  padding: 25px;
+  margin: 0px;
+  text-align: center;
+  vertical-align: center;
+  margin-top: 5%;
+
+
+
+}
+
+
+div.bod div.choice {
+  border: 1px solid white;
+  height: 400px;
+  margin-top: 2%;
+
+
+
+
+}
+
+
+
+
+div.bod div.choice:hover h3 {
+  font-size: 35px;
+
+
+}
+
+
+div.bod div.choice img {
+
+
+width: 100px;
+height: 100px;
+margin-left: calc(50% - 50px);
+margin-top: 125px;
+
+
+
+}
+
+
+div.bod div.choice h3 {
+  text-align: center;
+  font-size: 30px;
+
+
+
+}
+
+
+#info {
+
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+
+
+
+
+
+}
+
+
+#info div.input-group {
+  width: 350px;
+  margin-left: 50%;
+  left: -175px;
+  margin-top: 10px;
+
+
+}
+
+#info div.input-group input {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+
+
+}
+
+#info div.input-group h3 {
+  text-align: center;
+
+
+}
+
+
+#info div.input-group button {
+
+width: 100%;
+color: white;
+background: transparent;
+border: 1px solid white;
+margin-top: 10px;
+
+
+
+}
+
+
+#info div.input-group button:hover {
+  font-size: 25px;
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+  div.bod div.choice {
+    border: 1px solid white;
+    height: 250px;
+    margin-top: 4%;
+
+
+
+
+  }
+
+div.bod div.choice img {
+  margin-top: 50px;
+
+
+}
+
+
+#info div.input-group {
+
+width: 100%;
+margin-left: 0;
+left: 0px;
+
+
+
+}
+
+
+
+}
